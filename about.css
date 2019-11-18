@@ -1,3 +1,4 @@
+/* this is all really confusing even to me */
 html {
 	margin: 0px;
 	height: 100%;
@@ -13,12 +14,6 @@ body {
 	
 }
 
-.center_title {
-	padding-top: 50px;
-	padding-bottom: 30px;
-}
-
-
 #fade-in { 
 	/* for fade in things lol*/
 	-webkit-animation: fadein 2s;
@@ -30,13 +25,6 @@ body {
 	to{opacity: 1;}
 }
 
-.center_title {
-	height: 28px;
-	text-align: center;
-	font-size: 400%; 
-
-}
-
 #me {
 	margin-left: auto;
 	margin-right: auto;
@@ -45,23 +33,21 @@ body {
 
 }
 
-.navbar {
-	background: transparent;
-	border: 2px solid #0099CC;
-	border-radius: 6px;
-	border: none;
-	padding: 16px 32px;
+.center_title {
+	height: 28px;
+	padding-top: 50px;
+	padding-bottom: 30px;	
 	text-align: center;
-	display:inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	-webkit-transition-duration:0.4s;
-	transition-duration: 0.4s;
+	font-family: gilbert, sans-serif;
+	font-size: normal;
+	font-size: 500%; 
+	letter-spacing: 7px;
+
 }
 
 .line {
-	height: 5px;
-	background-color: #BE97C6;
+	height: 7px;
+	background-color: #FFA8A9;
 	width: 85vw;
 	margin-bottom: 15px;
 }
@@ -69,63 +55,96 @@ body {
 h4 {
 	font-size: 130%;
 	text-decoration: underline;
-	text-decoration-color: #F7C39C;
+	text-decoration-color: #B84A62;
+	font-family: 'varela round', sans-serif;
 }
 
 h1 {
 	font-size: 500%;
 	line-height: 100%;
-	padding-top: 20px;
+	padding-top: 50px;
+}
+
+h2 {
+	font-size: 150%;
+	font-weight: 140%;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #FFA8A9;
+}
+
+.aboutme {
+	width:345px;
+	letter-spacing: 5px;
+	font-family: 'Modak', cursive;
+	color: #FFA8A9;
 }
 
 .bio {
-	font-size: 120%;
-	width: 800px;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	line-height: 135%;
+	font-size: 105%;
+	width: 900px;
+	padding-top: 4vh;
+	padding-bottom: 10vh;
+	line-height: 125%;
 	margin: 0 auto;
 	text-align: center;
 	column-count: 2;
-	column-gap: 20px;
+	color: gray;
 }
 
 .ima_cry {
-	padding-top: 90px;
+	padding-top: 40px;
 }
 
 .columning {
 	margin-top: 80px;
   	text-align: center;
-  	margin-left: 20%;
-  	margin-right: 20%;
-  	column-count: 3;
-  	column-gap: 50px;
+  	margin-left: 17%;
+  	margin-right: 17%;
   	line-height: 70%;
-  	min-width: 30vw;
-}
+  	display: flex;
+
+  }
 
 .description {
 	font-size: 100%;
 	line-height: 120%;
+	width: 300px;
 }
 
 .body_title {
 	margin: 0 auto;
 	text-align: center;
+	font-size: 70%;
+	font-family: 'Modak', cursive;
+	color: #FFA8A9;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+.mini-body {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 500px;
 }
 
 #top-border {
-	background-color: #BE97C6;
+	background-color: #FFA8A9;
 	height: 30vh;
+	width: 100vw;
 	margin: 0;
 	color: white;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 #bottom-border {
-	background-color: #BE97C6;
+	background-color: #FFA8A9;
 	height: 26vh;
 	margin: 0;
 	color: white;
 }
+
